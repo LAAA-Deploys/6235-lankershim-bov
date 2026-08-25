@@ -76,8 +76,10 @@ img.full{width:100%;border-radius:6px;display:block;margin:14px 0}
 .pc-box .s{font-size:12.5px;color:#666}
 .plat-strip{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
 .plat{background:#f0f4f8;border:1px solid #dbe3ec;color:#0a2540;border-radius:16px;padding:6px 14px;font-size:12.5px;font-weight:600}
-.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:18px 0}
-.tm{background:#f8fafc;border:1px solid #e6e9ef;border-radius:8px;padding:16px;text-align:center}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:18px 0}
+.team-grid.leads{margin-bottom:0}
+.tm{background:#f8fafc;border:1px solid #e6e9ef;border-radius:8px;padding:20px 18px;text-align:center}
+.tm .ct{overflow-wrap:anywhere}
 .team-headshot{width:100%;aspect-ratio:1/1;height:auto;border-radius:10px;object-fit:cover;object-position:top;background:#f0f4f8;margin:0 0 8px;display:block}
 .tm .nm{font-weight:800;color:#0a2540;font-size:15px}
 .tm .ti{font-size:12px;color:#666;margin:2px 0 6px}
@@ -355,7 +357,7 @@ footer a{color:#b8985a;text-decoration:none}
 <section class="card" id="team">
   <h2>The Listing Team</h2>
   <p>This assignment is a partnership between the LAAA Team, Marcus &amp; Millichap's Encino-based multifamily and development land specialists, and the Agnew/Serling Group, the office's industrial, office, and retail specialists.</p>
-  <div class="team-grid">
+  <div class="team-grid leads">
     <div class="tm">
       <img class="team-headshot" src="images/headshot_filip-niculete.jpg" alt="Filip Niculete">
       <div class="nm">Filip Niculete</div>
@@ -363,16 +365,18 @@ footer a{color:#b8985a;text-decoration:none}
       <div class="ct">(818) 212-2748<br><a href="mailto:Filip.Niculete@marcusmillichap.com">Filip.Niculete@marcusmillichap.com</a><br>CA DRE #01905352</div>
     </div>
     <div class="tm">
+      <img class="team-headshot" src="images/headshot_lucas-mitchell.jpg" alt="Lucas Mitchell">
+      <div class="nm">Lucas Mitchell</div>
+      <div class="ti">Associate Director Investments<br>Agnew/Serling Group</div>
+      <div class="ct">(818) 212-2695<br><a href="mailto:Lucas.Mitchell@marcusmillichap.com">Lucas.Mitchell@marcusmillichap.com</a><br>CA DRE #02241581</div>
+    </div>
+  </div>
+  <div class="team-grid">
+    <div class="tm">
       <img class="team-headshot" src="images/headshot_glen-scher.jpg" alt="Glen Scher">
       <div class="nm">Glen Scher</div>
       <div class="ti">Senior Managing Director Investments</div>
       <div class="ct">(818) 212-2808<br><a href="mailto:Glen.Scher@marcusmillichap.com">Glen.Scher@marcusmillichap.com</a><br>CA DRE #01962976</div>
-    </div>
-    <div class="tm">
-      <img class="team-headshot" src="images/headshot_marty-agnew.jpg" alt="Marty Agnew">
-      <div class="nm">Marty Agnew</div>
-      <div class="ti">Senior Managing Director Investments<br>Agnew/Serling Group</div>
-      <div class="ct">(818) 212-2744<br><a href="mailto:Martin.Agnew@marcusmillichap.com">Martin.Agnew@marcusmillichap.com</a><br>CA DRE #01339034</div>
     </div>
     <div class="tm">
       <img class="team-headshot" src="images/headshot_ryan-rothstein-serling.jpg" alt="Ryan Rothstein-Serling">
@@ -381,10 +385,10 @@ footer a{color:#b8985a;text-decoration:none}
       <div class="ct">(818) 212-2725<br><a href="mailto:Ryan.Serling@marcusmillichap.com">Ryan.Serling@marcusmillichap.com</a><br>CA DRE #01920619</div>
     </div>
     <div class="tm">
-      <img class="team-headshot" src="images/headshot_lucas-mitchell.jpg" alt="Lucas Mitchell">
-      <div class="nm">Lucas Mitchell</div>
-      <div class="ti">Associate Director Investments<br>Agnew/Serling Group</div>
-      <div class="ct">(818) 212-2695<br><a href="mailto:Lucas.Mitchell@marcusmillichap.com">Lucas.Mitchell@marcusmillichap.com</a><br>CA DRE #02241581</div>
+      <img class="team-headshot" src="images/headshot_marty-agnew.jpg" alt="Marty Agnew">
+      <div class="nm">Marty Agnew</div>
+      <div class="ti">Senior Managing Director Investments<br>Agnew/Serling Group</div>
+      <div class="ct">(818) 212-2744<br><a href="mailto:Martin.Agnew@marcusmillichap.com">Martin.Agnew@marcusmillichap.com</a><br>CA DRE #01339034</div>
     </div>
   </div>
   <h3>The LAAA Team</h3>
